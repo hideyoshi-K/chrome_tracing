@@ -1,4 +1,5 @@
 #include <iostream>
+#include <chrome_tracing.hpp>
 
 int main(int argc, char* argv[])
 {

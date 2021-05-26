@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 project(chrome_tracing)
 set(CMAKE_CXX_FLAGS "-Wall -std=c++14")
 
+include_directories(include)
 add_executable(main src/main.cpp)
 
 ## Thread
