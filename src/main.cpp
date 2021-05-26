@@ -4,7 +4,7 @@
 
 int main(int argc, char* argv[])
 {
-    ChromeTracing tracing;
+    ChromeTracing tracing("main", "file.yaml");
 
     for (int i = 0; i < 10; i++) {
         tracing.start();
