@@ -1,0 +1,2 @@
+CMake project template
+---
